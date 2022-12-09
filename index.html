@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Proj</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/353235358d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="bg-color"></div>
+    <div class="intro">
+        <h2>Welcome !!!  Number Guessing game using <i class="fa-brands fa-html5"></i>,<i class="fa-brands fa-css3-alt"></i>,<i class="fa-brands fa-js"></i></h2>
+        <p>Seems Easy but its not &nbsp;<i class="fa-regular fa-face-smile-wink"></i></p>
+    </div>
+    <div class="container">
+        
+        <p class="parafont">Enter the Range in first box ,(i.e 10 if you want to guess between 1 to 10)<br>And In the next box enter your guess</p>
+        <div class="guess">
+                <p id="outputtext"></p>
+                <label class="labels" for="guess-input">Guess the Number :</label>
+                <input type="number" id="guess-input" name="guess-input" autofocus aria-autocomplete="both">
+                <button type="submit" id="guess-btn">Try your Luck</button>
+               
+        </div>
+        <button class="ref" onClick="window.location.reload();"><i style="font-size:24px" class="fa">&#xf021;</i></button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

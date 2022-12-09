@@ -1,0 +1,111 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    width: 40em;
+    height: 55vh;
+    position: absolute;
+    background-image: url(./Cloudy.svg);
+    z-index: -2;
+    left: 184px;
+    top: 8em;
+    border-radius: 0 0 35px 35px;
+}
+
+body {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(./Moon.svg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    /* place-items: center; */
+    /* place-content: center; */
+    margin: 150px auto;
+    float: center;
+    /* grid-template-rows: auto auto; */
+    background: rgb(245, 245, 245);
+    max-width: fit-content;
+    min-height: 40vh;
+    box-shadow: 10px 5px 25px 0px;
+    padding: 2.3em;
+}
+
+.container input {
+    padding: 7px;
+
+    /* font-size: 20px; */
+}
+
+button {
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: all 0.2s;
+
+}
+
+.ref {
+
+    width: 140px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.856);
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    margin: auto;
+
+
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 1);
+    transform: scale(1.02);
+    /* transform:rotate3d(30deg); */
+
+}
+
+
+
+/* button:hover{
+    background-color:rgba(0, 0, 0, 1) ;
+    transform:rotate(1.5deg);
+} */
+.intro {
+    text-align: center;
+    color: aliceblue;
+    background: #000;
+    width: 40em;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.parafont {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: -20px;
+}
+
+.labels {
+    font-size: 24px;
+    font-weight: bold;
+    /* text-decoration: dotted; */
+
+}
